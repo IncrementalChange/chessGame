@@ -1,0 +1,40 @@
+The game must follow the rules of chess:
+    - Player picks a side
+    - White moves first
+    - Pieces must behave as they would in chess:
+        - Pawn:
+            - One square or two squares on first move
+            - Diagonal/En passant capture
+            - Promotion
+        - Rook:
+            - Straight line/Castle on first move
+            - Capture
+        - Knight:
+            - Moves two squares out and one to the side
+            - Capture
+        - Bishop:
+            - Diagonal move
+            - Capture
+        - Queen:
+            - Diagonal + Straight line move
+            - Capture
+        - King:
+            - One square in any direction
+            - Castle
+            - Cannot place itself in check
+            - Cannot move in check unless to move out of check
+            - Cannot move though a checked square (castle)
+            - Game ends when king is in check
+
+The game should support a player and a bot:
+    - Player can either click and drag or enter chess notation
+    - Player can promote a pawn
+    - Player cannot withdraw a move
+    - Player can resign
+    - Bot will run Stockfish
+    - Game must end: Checkmate/Stalemate/Resignation/50 moves without capture
+
+The game must display things to a game window:
+    - Board, Coordinates and Pieces
+    - Last move, Selected piece and legal moves
+    - Move history, Error messages and Winner/Loser/tie
