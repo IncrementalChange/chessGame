@@ -35,7 +35,7 @@ Switch Player</panel_attributes>
     </coordinates>
     <panel_attributes>bg=red
 type=decision
-Is Move Valid?</panel_attributes>
+Move Validator</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -48,7 +48,7 @@ Is Move Valid?</panel_attributes>
     </coordinates>
     <panel_attributes>bg=red
 type=decision
-Is Game Over?</panel_attributes>
+Game Terminator</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -67,11 +67,11 @@ Is Game Over?</panel_attributes>
     <coordinates>
       <x>350</x>
       <y>540</y>
-      <w>50</w>
+      <w>100</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-Yes</panel_attributes>
+Valid Move</panel_attributes>
     <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
   </element>
   <element>
@@ -79,11 +79,11 @@ Yes</panel_attributes>
     <coordinates>
       <x>350</x>
       <y>700</y>
-      <w>50</w>
+      <w>100</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-Yes</panel_attributes>
+Game Over</panel_attributes>
     <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
   </element>
   <element>
@@ -91,11 +91,11 @@ Yes</panel_attributes>
     <coordinates>
       <x>400</x>
       <y>360</y>
-      <w>140</w>
+      <w>200</w>
       <h>170</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-No</panel_attributes>
+Invalid Move</panel_attributes>
     <additional_attributes>10.0;10.0;100.0;10.0;100.0;150.0;30.0;150.0</additional_attributes>
   </element>
   <element>
@@ -107,29 +107,31 @@ No</panel_attributes>
       <h>170</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-No</panel_attributes>
+Game Not Over</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;150.0;120.0;150.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>360</y>
-      <w>160</w>
-      <h>150</h>
+      <x>120</x>
+      <y>350</y>
+      <w>210</w>
+      <h>160</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>140.0;10.0;10.0;10.0;10.0;130.0</additional_attributes>
+    <panel_attributes>lt=&lt;-
+Prompt Player/Bot</panel_attributes>
+    <additional_attributes>190.0;20.0;60.0;20.0;60.0;140.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>350</x>
       <y>260</y>
-      <w>30</w>
+      <w>90</w>
       <h>110</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
+    <panel_attributes>lt=&lt;-
+Pick Sides</panel_attributes>
     <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
   </element>
   <element>
@@ -142,7 +144,7 @@ No</panel_attributes>
     </coordinates>
     <panel_attributes>bg=gray
 type=initial
-Initialisation</panel_attributes>
+Board Setup</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -155,7 +157,7 @@ Initialisation</panel_attributes>
     </coordinates>
     <panel_attributes>bg=gray
 type=final
-Game Over</panel_attributes>
+End Game</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
