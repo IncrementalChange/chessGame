@@ -1,0 +1,23 @@
+Pawn:
+  - One square or two squares on first move
+  - Diagonal/En passant capture
+  - Promotion
+Rook:
+  - Straight line/Castle on first move
+  - Capture
+Knight:
+  - Moves two squares out and one to the side
+  - Capture
+Bishop:
+  - Diagonal move
+  - Capture
+Queen:
+  - Diagonal + Straight line move
+  - Capture
+King:
+  - One square in any direction
+  - Castle
+  - Cannot place itself in check
+  - Cannot move in check unless to move out of check
+  - Cannot move though a checked square (castle)
+  - Game ends when king is in check
