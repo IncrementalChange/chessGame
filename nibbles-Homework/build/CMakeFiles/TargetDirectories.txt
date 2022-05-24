@@ -1,3 +1,0 @@
-C:/Users/seblid/Dev/vsCode-workspace/nibbles-Homework/build/CMakeFiles/nibbles.dir
-C:/Users/seblid/Dev/vsCode-workspace/nibbles-Homework/build/CMakeFiles/edit_cache.dir
-C:/Users/seblid/Dev/vsCode-workspace/nibbles-Homework/build/CMakeFiles/rebuild_cache.dir
