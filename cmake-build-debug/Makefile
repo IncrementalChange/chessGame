@@ -68,10 +68,10 @@ RM = /home/adam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/CLionProjects/nibbles
+CMAKE_SOURCE_DIR = /home/adam/CLionProjects/chessGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adam/CLionProjects/nibbles/cmake-build-debug
+CMAKE_BINARY_DIR = /home/adam/CLionProjects/chessGame/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles /home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles /home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named nibbles
+# Target rules for targets named chessGame
 
 # Build rule for target.
-nibbles: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nibbles
-.PHONY : nibbles
+chessGame: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chessGame
+.PHONY : chessGame
 
 # fast build rule for target.
-nibbles/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/build
-.PHONY : nibbles/fast
+chessGame/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/build
+.PHONY : chessGame/fast
 
 src/apple.o: src/apple.cpp.o
 
@@ -149,7 +149,7 @@ src/apple.o: src/apple.cpp.o
 
 # target to build an object file
 src/apple.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/apple.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/apple.cpp.o
 .PHONY : src/apple.cpp.o
 
 src/apple.i: src/apple.cpp.i
@@ -158,7 +158,7 @@ src/apple.i: src/apple.cpp.i
 
 # target to preprocess a source file
 src/apple.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/apple.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/apple.cpp.i
 .PHONY : src/apple.cpp.i
 
 src/apple.s: src/apple.cpp.s
@@ -167,7 +167,7 @@ src/apple.s: src/apple.cpp.s
 
 # target to generate assembly for a file
 src/apple.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/apple.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/apple.cpp.s
 .PHONY : src/apple.cpp.s
 
 src/draw.o: src/draw.cpp.o
@@ -176,7 +176,7 @@ src/draw.o: src/draw.cpp.o
 
 # target to build an object file
 src/draw.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/draw.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/draw.cpp.o
 .PHONY : src/draw.cpp.o
 
 src/draw.i: src/draw.cpp.i
@@ -185,7 +185,7 @@ src/draw.i: src/draw.cpp.i
 
 # target to preprocess a source file
 src/draw.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/draw.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/draw.cpp.i
 .PHONY : src/draw.cpp.i
 
 src/draw.s: src/draw.cpp.s
@@ -194,7 +194,7 @@ src/draw.s: src/draw.cpp.s
 
 # target to generate assembly for a file
 src/draw.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/draw.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/draw.cpp.s
 .PHONY : src/draw.cpp.s
 
 src/engine.o: src/engine.cpp.o
@@ -203,7 +203,7 @@ src/engine.o: src/engine.cpp.o
 
 # target to build an object file
 src/engine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/engine.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/engine.cpp.o
 .PHONY : src/engine.cpp.o
 
 src/engine.i: src/engine.cpp.i
@@ -212,7 +212,7 @@ src/engine.i: src/engine.cpp.i
 
 # target to preprocess a source file
 src/engine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/engine.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/engine.cpp.i
 .PHONY : src/engine.cpp.i
 
 src/engine.s: src/engine.cpp.s
@@ -221,7 +221,7 @@ src/engine.s: src/engine.cpp.s
 
 # target to generate assembly for a file
 src/engine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/engine.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/engine.cpp.s
 .PHONY : src/engine.cpp.s
 
 src/input.o: src/input.cpp.o
@@ -230,7 +230,7 @@ src/input.o: src/input.cpp.o
 
 # target to build an object file
 src/input.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/input.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/input.cpp.o
 .PHONY : src/input.cpp.o
 
 src/input.i: src/input.cpp.i
@@ -239,7 +239,7 @@ src/input.i: src/input.cpp.i
 
 # target to preprocess a source file
 src/input.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/input.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/input.cpp.i
 .PHONY : src/input.cpp.i
 
 src/input.s: src/input.cpp.s
@@ -248,7 +248,7 @@ src/input.s: src/input.cpp.s
 
 # target to generate assembly for a file
 src/input.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/input.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/input.cpp.s
 .PHONY : src/input.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -257,7 +257,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -266,7 +266,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -275,7 +275,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/snakesection.o: src/snakesection.cpp.o
@@ -284,7 +284,7 @@ src/snakesection.o: src/snakesection.cpp.o
 
 # target to build an object file
 src/snakesection.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/snakesection.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/snakesection.cpp.o
 .PHONY : src/snakesection.cpp.o
 
 src/snakesection.i: src/snakesection.cpp.i
@@ -293,7 +293,7 @@ src/snakesection.i: src/snakesection.cpp.i
 
 # target to preprocess a source file
 src/snakesection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/snakesection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/snakesection.cpp.i
 .PHONY : src/snakesection.cpp.i
 
 src/snakesection.s: src/snakesection.cpp.s
@@ -302,7 +302,7 @@ src/snakesection.s: src/snakesection.cpp.s
 
 # target to generate assembly for a file
 src/snakesection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/snakesection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/snakesection.cpp.s
 .PHONY : src/snakesection.cpp.s
 
 src/update.o: src/update.cpp.o
@@ -311,7 +311,7 @@ src/update.o: src/update.cpp.o
 
 # target to build an object file
 src/update.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/update.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/update.cpp.o
 .PHONY : src/update.cpp.o
 
 src/update.i: src/update.cpp.i
@@ -320,7 +320,7 @@ src/update.i: src/update.cpp.i
 
 # target to preprocess a source file
 src/update.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/update.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/update.cpp.i
 .PHONY : src/update.cpp.i
 
 src/update.s: src/update.cpp.s
@@ -329,7 +329,7 @@ src/update.s: src/update.cpp.s
 
 # target to generate assembly for a file
 src/update.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/update.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/update.cpp.s
 .PHONY : src/update.cpp.s
 
 src/wall.o: src/wall.cpp.o
@@ -338,7 +338,7 @@ src/wall.o: src/wall.cpp.o
 
 # target to build an object file
 src/wall.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/wall.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/wall.cpp.o
 .PHONY : src/wall.cpp.o
 
 src/wall.i: src/wall.cpp.i
@@ -347,7 +347,7 @@ src/wall.i: src/wall.cpp.i
 
 # target to preprocess a source file
 src/wall.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/wall.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/wall.cpp.i
 .PHONY : src/wall.cpp.i
 
 src/wall.s: src/wall.cpp.s
@@ -356,7 +356,7 @@ src/wall.s: src/wall.cpp.s
 
 # target to generate assembly for a file
 src/wall.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/src/wall.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/src/wall.cpp.s
 .PHONY : src/wall.cpp.s
 
 # Help Target
@@ -367,7 +367,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... nibbles"
+	@echo "... chessGame"
 	@echo "... src/apple.o"
 	@echo "... src/apple.i"
 	@echo "... src/apple.s"

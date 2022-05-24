@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,27 +23,27 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_5981d/fast && /usr/bin/make  -f CMakeFiles/cmTC_5981d.dir/build.make CMakeFiles/cmTC_5981d.dir/build
-make[1]: Entering directory '/home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_5981d.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5981d.dir/testCCompiler.c.o   -c /home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+/usr/bin/cc    -o CMakeFiles/cmTC_5981d.dir/testCCompiler.c.o   -c /home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
 Linking C executable cmTC_5981d
 /home/adam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5981d.dir/link.txt --verbose=1
 /usr/bin/cc      CMakeFiles/cmTC_5981d.dir/testCCompiler.c.o  -o cmTC_5981d 
-make[1]: Leaving directory '/home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_11ff3/fast && /usr/bin/make  -f CMakeFiles/cmTC_11ff3.dir/build.make CMakeFiles/cmTC_11ff3.dir/build
-make[1]: Entering directory '/home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_11ff3.dir/CMakeCCompilerABI.c.o
 /usr/bin/cc   -v -o CMakeFiles/cmTC_11ff3.dir/CMakeCCompilerABI.c.o   -c /home/adam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCCompilerABI.c
 Using built-in specs.
@@ -94,7 +94,7 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/usr/lib/gcc/x86_64-pc-lin
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_11ff3' '-mtune=generic' '-march=x86-64'
  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjXNEQO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_11ff3 /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../.. CMakeFiles/cmTC_11ff3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_11ff3' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -115,10 +115,10 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/make cmTC_11ff3/fast && /usr/bin/make  -f CMakeFiles/cmTC_11ff3.dir/build.make CMakeFiles/cmTC_11ff3.dir/build]
-  ignore line: [make[1]: Entering directory '/home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Entering directory '/home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: [Building C object CMakeFiles/cmTC_11ff3.dir/CMakeCCompilerABI.c.o]
   ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_11ff3.dir/CMakeCCompilerABI.c.o   -c /home/adam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
@@ -221,24 +221,24 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_04296/fast && /usr/bin/make  -f CMakeFiles/cmTC_04296.dir/build.make CMakeFiles/cmTC_04296.dir/build
-make[1]: Entering directory '/home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_04296.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_04296.dir/testCXXCompiler.cxx.o -c /home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+/usr/bin/c++     -o CMakeFiles/cmTC_04296.dir/testCXXCompiler.cxx.o -c /home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
 Linking CXX executable cmTC_04296
 /home/adam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04296.dir/link.txt --verbose=1
 /usr/bin/c++       CMakeFiles/cmTC_04296.dir/testCXXCompiler.cxx.o  -o cmTC_04296 
-make[1]: Leaving directory '/home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_56ab3/fast && /usr/bin/make  -f CMakeFiles/cmTC_56ab3.dir/build.make CMakeFiles/cmTC_56ab3.dir/build
-make[1]: Entering directory '/home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_56ab3.dir/CMakeCXXCompilerABI.cpp.o
 /usr/bin/c++    -v -o CMakeFiles/cmTC_56ab3.dir/CMakeCXXCompilerABI.cpp.o -c /home/adam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
@@ -292,7 +292,7 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/usr/lib/gcc/x86_64-pc-lin
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_56ab3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
  /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccU1TKdv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_56ab3 /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0 -L/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../.. CMakeFiles/cmTC_56ab3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_56ab3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -319,10 +319,10 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/make cmTC_56ab3/fast && /usr/bin/make  -f CMakeFiles/cmTC_56ab3.dir/build.make CMakeFiles/cmTC_56ab3.dir/build]
-  ignore line: [make[1]: Entering directory '/home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Entering directory '/home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: [Building CXX object CMakeFiles/cmTC_56ab3.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_56ab3.dir/CMakeCXXCompilerABI.cpp.o -c /home/adam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]

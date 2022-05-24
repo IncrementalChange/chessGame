@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.17)
-project(nibbles)
+project(chessGame)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(nibbles src/main.cpp)
+add_executable(chessGame src/main.cpp)
 
 include_directories(headers /usr/include c:/SFML/include)
 
@@ -12,10 +12,8 @@ set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules")
 find_package(SFML REQUIRED system window graphics)
 if (SFML_FOUND)
     include_directories(${SFML_INCLUDE_DIR})
-    target_link_libraries(nibbles ${SFML_LIBRARIES})
+    target_link_libraries(chessGame ${SFML_LIBRARIES})
 endif()
-
-file(COPY assets DESTINATION ${CMAKE_BINARY_DIR})
 
 # Copy dlls to build directory
 if(WIN32)

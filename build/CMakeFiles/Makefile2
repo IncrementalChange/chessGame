@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\seblid\Dev\vsCode-workspace\chessGame\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/nibbles.dir/all
+all: CMakeFiles/chessGame.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/nibbles.dir/clean
+clean: CMakeFiles/chessGame.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/nibbles.dir
+# Target rules for target CMakeFiles/chessGame.dir
 
 # All Build rule for target.
-CMakeFiles/nibbles.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\seblid\Dev\vsCode-workspace\chessGame\build\CMakeFiles --progress-num=1,2 "Built target nibbles"
-.PHONY : CMakeFiles/nibbles.dir/all
+CMakeFiles/chessGame.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chessGame.dir\build.make CMakeFiles/chessGame.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chessGame.dir\build.make CMakeFiles/chessGame.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\seblid\Dev\vsCode-workspace\chessGame\build\CMakeFiles --progress-num=1,2 "Built target chessGame"
+.PHONY : CMakeFiles/chessGame.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/nibbles.dir/rule: cmake_check_build_system
+CMakeFiles/chessGame.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\seblid\Dev\vsCode-workspace\chessGame\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/nibbles.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/chessGame.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\seblid\Dev\vsCode-workspace\chessGame\build\CMakeFiles 0
-.PHONY : CMakeFiles/nibbles.dir/rule
+.PHONY : CMakeFiles/chessGame.dir/rule
 
 # Convenience name for target.
-nibbles: CMakeFiles/nibbles.dir/rule
-.PHONY : nibbles
+chessGame: CMakeFiles/chessGame.dir/rule
+.PHONY : chessGame
 
 # clean rule for target.
-CMakeFiles/nibbles.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/clean
-.PHONY : CMakeFiles/nibbles.dir/clean
+CMakeFiles/chessGame.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chessGame.dir\build.make CMakeFiles/chessGame.dir/clean
+.PHONY : CMakeFiles/chessGame.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

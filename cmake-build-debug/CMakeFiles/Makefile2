@@ -64,16 +64,16 @@ RM = /home/adam/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/CLionProjects/nibbles
+CMAKE_SOURCE_DIR = /home/adam/CLionProjects/chessGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adam/CLionProjects/nibbles/cmake-build-debug
+CMAKE_BINARY_DIR = /home/adam/CLionProjects/chessGame/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/nibbles.dir/all
+all: CMakeFiles/chessGame.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/nibbles.dir/clean
+clean: CMakeFiles/chessGame.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/nibbles.dir
+# Target rules for target CMakeFiles/chessGame.dir
 
 # All Build rule for target.
-CMakeFiles/nibbles.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target nibbles"
-.PHONY : CMakeFiles/nibbles.dir/all
+CMakeFiles/chessGame.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target chessGame"
+.PHONY : CMakeFiles/chessGame.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/nibbles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/nibbles.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/CLionProjects/nibbles/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/nibbles.dir/rule
+CMakeFiles/chessGame.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/chessGame.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam/CLionProjects/chessGame/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/chessGame.dir/rule
 
 # Convenience name for target.
-nibbles: CMakeFiles/nibbles.dir/rule
+chessGame: CMakeFiles/chessGame.dir/rule
 
-.PHONY : nibbles
+.PHONY : chessGame
 
 # clean rule for target.
-CMakeFiles/nibbles.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nibbles.dir/build.make CMakeFiles/nibbles.dir/clean
-.PHONY : CMakeFiles/nibbles.dir/clean
+CMakeFiles/chessGame.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chessGame.dir/build.make CMakeFiles/chessGame.dir/clean
+.PHONY : CMakeFiles/chessGame.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named nibbles
+# Target rules for targets named chessGame
 
 # Build rule for target.
-nibbles: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 nibbles
-.PHONY : nibbles
+chessGame: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 chessGame
+.PHONY : chessGame
 
 # fast build rule for target.
-nibbles/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/build
-.PHONY : nibbles/fast
+chessGame/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chessGame.dir\build.make CMakeFiles/chessGame.dir/build
+.PHONY : chessGame/fast
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chessGame.dir\build.make CMakeFiles/chessGame.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -141,7 +141,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chessGame.dir\build.make CMakeFiles/chessGame.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -149,7 +149,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nibbles.dir\build.make CMakeFiles/nibbles.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chessGame.dir\build.make CMakeFiles/chessGame.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... nibbles
+	@echo ... chessGame
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

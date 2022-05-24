@@ -1,7 +1,7 @@
 [
 {
   "directory": "C:/Users/seblid/Dev/vsCode-workspace/chessGame/build",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/nibbles.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\nibbles.dir\\src\\main.cpp.obj -c C:\\Users\\seblid\\Dev\\vsCode-workspace\\chessGame\\src\\main.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/chessGame.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\chessGame.dir\\src\\main.cpp.obj -c C:\\Users\\seblid\\Dev\\vsCode-workspace\\chessGame\\src\\main.cpp",
   "file": "C:/Users/seblid/Dev/vsCode-workspace/chessGame/src/main.cpp"
 }
 ]
