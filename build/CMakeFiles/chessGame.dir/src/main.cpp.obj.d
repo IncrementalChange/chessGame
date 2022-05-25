@@ -241,4 +241,5 @@ CMakeFiles/chessGame.dir/src/main.cpp.obj: \
  c:/SFML/include/SFML/Graphics/Glsl.inl \
  c:/SFML/include/SFML/Graphics/Sprite.hpp \
  c:/SFML/include/SFML/Graphics/Text.hpp \
- c:/SFML/include/SFML/Graphics/VertexBuffer.hpp
+ c:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream

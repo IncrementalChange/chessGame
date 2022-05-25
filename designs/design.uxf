@@ -1,21 +1,21 @@
-<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLState</id><coordinates><x>340</x><y>210</y><w>100</w><h>40</h></coordinates><panel_attributes>bg=green
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLState</id><coordinates><x>330</x><y>320</y><w>100</w><h>40</h></coordinates><panel_attributes>bg=green
 layer=2
-Get Move</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>160</x><y>350</y><w>100</w><h>40</h></coordinates><panel_attributes>bg=blue
-Switch Player</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>320</x><y>330</y><w>140</w><h>80</h></coordinates><panel_attributes>bg=red
+Get Move</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>150</x><y>460</y><w>100</w><h>40</h></coordinates><panel_attributes>bg=blue
+Switch Player</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>310</x><y>440</y><w>140</w><h>80</h></coordinates><panel_attributes>bg=red
 type=decision
 layer=2
-Move Validator</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>320</x><y>490</y><w>140</w><h>80</h></coordinates><panel_attributes>bg=red
+Move Validator</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>310</x><y>600</y><w>140</w><h>80</h></coordinates><panel_attributes>bg=red
 type=decision
 layer=2
-Game Terminator</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>240</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
-layer=2</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>400</y><w>90</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+Game Terminator</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>350</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+layer=2</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>510</y><w>90</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
 layer=2
-Valid Move</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>560</y><w>90</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+Valid Move</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>670</y><w>90</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
 layer=2
-Game Over</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>220</y><w>190</w><h>170</h></coordinates><panel_attributes>lt=&lt;-
+Game Over</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>330</y><w>190</w><h>170</h></coordinates><panel_attributes>lt=&lt;-
 layer=2
-Invalid Move</panel_attributes><additional_attributes>10;10;100;10;100;150;30;150</additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>380</y><w>140</w><h>170</h></coordinates><panel_attributes>lt=&lt;-
-layer=2</panel_attributes><additional_attributes>10;10;10;150;120;150</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>210</y><w>280</w><h>300</h></coordinates><panel_attributes>lt=&lt;-
+Invalid Move</panel_attributes><additional_attributes>10;10;100;10;100;150;30;150</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>490</y><w>140</w><h>170</h></coordinates><panel_attributes>lt=&lt;-
+layer=2</panel_attributes><additional_attributes>10;10;10;150;120;150</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>320</y><w>280</w><h>300</h></coordinates><panel_attributes>lt=&lt;-
 layer=2
 
 
@@ -35,13 +35,13 @@ Player/Bot
 
 
 Game                                                     
-Not Over                                                          </panel_attributes><additional_attributes>200;20;70;20;70;140</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>120</y><w>80</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+Not Over                                                          </panel_attributes><additional_attributes>200;20;70;20;70;140</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>230</y><w>80</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
 layer=2
-Pick Sides</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>340</x><y>30</y><w>100</w><h>100</h></coordinates><panel_attributes>bg=gray
+Pick Sides</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>330</x><y>140</y><w>100</w><h>100</h></coordinates><panel_attributes>bg=gray
 type=initial
-Board Setup</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>340</x><y>650</y><w>100</w><h>100</h></coordinates><panel_attributes>bg=gray
+Board Setup</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>330</x><y>760</y><w>100</w><h>100</h></coordinates><panel_attributes>bg=gray
 type=final
-End Game</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLObject</id><coordinates><x>270</x><y>150</y><w>430</w><h>480</h></coordinates><panel_attributes>valign=bottom
+End Game</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLObject</id><coordinates><x>260</x><y>260</y><w>430</w><h>480</h></coordinates><panel_attributes>valign=bottom
 halign=right
 Visualisation                  
 

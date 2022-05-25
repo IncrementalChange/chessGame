@@ -246,7 +246,8 @@ CMakeFiles/chessGame.dir/src/main.cpp.obj: ../src/main.cpp \
   C:/SFML/include/SFML/Graphics/Glsl.inl \
   C:/SFML/include/SFML/Graphics/Sprite.hpp \
   C:/SFML/include/SFML/Graphics/Text.hpp \
-  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp
+  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream
 
 
 C:/SFML/include/SFML/Graphics/Text.hpp:
@@ -734,3 +735,5 @@ C:/SFML/include/SFML/Graphics/RenderWindow.hpp:
 C:/SFML/include/SFML/Graphics/Sprite.hpp:
 
 C:/SFML/include/SFML/Graphics/VertexBuffer.hpp:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream:
