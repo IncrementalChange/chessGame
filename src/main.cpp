@@ -11,10 +11,10 @@ int main()
 
     // Create and display the board and pieces
     // For loop to render pieces
-    std::string chessboard = "chessboard";
+    std::string chessboard = "chessboard";  // Board size is the size of the chessboard image
     std::string blackpawn = "blackpawn";
-    sf::Sprite chessBoard = Renderer::renderObject(chessboard, sf::Vector2f(boardWindowWidth / boardSize.x, boardWindowHeight / boardSize.y), sf::Vector2f(0.f, 0.f));
-    sf::Sprite blackPawn = Renderer::renderObject(blackpawn, sf::Vector2f(0.5f, 0.5f), sf::Vector2f(500.f, 500.f));
+    sf::Sprite chessBoard = Renderer::renderObject(chessboard, sf::Vector2f(0.f, 0.f));
+    sf::Sprite blackPawn = Renderer::renderObject(blackpawn, sf::Vector2f(500.f, 500.f));
 
     // bool resign = false;
     // bool isGameOver = false;

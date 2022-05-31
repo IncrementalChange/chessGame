@@ -1,3 +1,8 @@
+/** The chessboard must have:
+ *      - position
+ *      - scale adjusted to window width and height
+ */
+
 board = [
     "bR", "bN", "bB", "bQ", "bK", "bB", "bN", "bR",
     "bP", "bP", "bP", "bP", "bP", "bP", "bP", "bP",
