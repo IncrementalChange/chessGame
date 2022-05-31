@@ -1,20 +1,25 @@
 #include "SFML/Graphics.hpp"
 #include <iostream>
 
-class Renderer{
+class Renderer {
     public:
-    std::string pieceName;
-    float boardWindowHeight;
-    float boardWindowWidth;
+    // Chessboard and pieces
+    std::string objectName;
+    sf::Vector2f scale;
+    sf::Vector2f position;
+    // bool isSelected;
+    // std::vector<string> legalMoves;
 
-    // std::vector<std::string> moveLog;
-    // bool isPlayersTurn;
-    // bool isMoveValid;
-    // std::string moveValidatorMessage;
+    // Move logger and (Error) Messages
+        // std::vector<std::string> moveLog;
+        // bool isPlayersTurn;
+        // bool isMoveValid;
+        // std::string moveValidatorMessage;
+
+    Renderer(std::string, sf::Vector2f, sf::Vector2f);
 
     private:
-    sf::Sprite renderBoard(float, float);
-    sf::Sprite renderPiece(std::string pieceName);
+    sf::Sprite renderObject(std::string objectName, sf::Vector2f scale, sf::Vector2f position);
     // sf::Sprite renderMoveLog(std::vector<std::string>& moveLog);
     // sf::Sprite renderMessages(bool isPlayersTurn, bool isMoveValid, std::string moveValidatorMessage);
 };

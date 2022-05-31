@@ -1,37 +1,24 @@
 #include "renderer.h"
 
-sf::Sprite Renderer::renderBoard(float boardWindowHeight, float boardWindowWidth) {
-    // BOARD RENDERER
-    std::string pathToBoard = "../sprites/chessboard.png";
-    sf::Texture boardTexture;
-    boardTexture.loadFromFile(pathToBoard);
-
-    sf::Vector2u boardSize = boardTexture.getSize();
-    sf::Sprite boardSprite;
-    boardSprite.setTexture(boardTexture);
-    boardSprite.setScale(sf::Vector2f(boardWindowWidth / boardSize.x, boardWindowHeight / boardSize.y));
-
-    return boardSprite;
+Renderer::Renderer(std::string objectName, sf::Vector2f scale, sf::Vector2f position)
+{
+    // Chesspieces
+    // scale = objectName.getScale();          // (.5f, .5f) for pieces, (boardWindowWidth / boardSize.x, boardWindowHeight / boardSize.y) for board
+    // position = objectName.getPosition();    // variable for pieces, (0, 0) for board
 }
 
-sf::Sprite Renderer::renderPiece(std::string pieceName) {
-    /** Make seperate cases for Chessboard, various pieces,
-      * Movelog and message displays.
-      * 
-      * Make decorator for selected piece, valid moves for that piece
-      */
+sf::Sprite Renderer::renderObject(std::string objectName, sf::Vector2f scale, sf::Vector2f position) {
+    std::string pathToImage = "../images/" + objectName + ".png";   // Need objectName here
+    sf::Texture texture;
+    texture.loadFromFile(pathToImage);
+    sf::Vector2u size = texture.getSize();
 
-    // PIECE RENDERER
-    std::string pathToPiece = "../sprites/" + pieceName + ".png";
-    sf::Texture pieceTexture;
-    pieceTexture.loadFromFile(pathToPiece);
-
-    sf::Vector2u pieceSize = pieceTexture.getSize();
-    sf::Sprite pieceSprite;
-
-    pieceSprite.setTexture(pieceTexture);
-    pieceSprite.setScale(sf::Vector2f(0.5f, 0.5f));
-    pieceSprite.setPosition(500.f, 500.f);
-
-    return pieceSprite;
+    sf::Sprite sprite;
+    sprite.setTexture(texture);
+    sprite.setScale(scale);         // Need scale and position here
+    sprite.setPosition(position);
 }
+
+/** Movelog and message displays.
+  * Make decorator for selected piece, show valid moves for that piece
+  */
