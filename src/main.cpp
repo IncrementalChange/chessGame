@@ -1,5 +1,4 @@
-#include <SFML/Graphics.hpp>
-#include <iostream>
+#include "includes.h"
 
 int main()
 {
@@ -10,39 +9,50 @@ int main()
     sf::RectangleShape background(sf::Vector2f(boardWindowWidth, boardWindowHeight));
     background.setFillColor(sf::Color::White);
 
-    sf::Texture boardTexture;
-    if (!boardTexture.loadFromFile("../sprites/chessboard.png")) {
-        return 0;
-    }
+    // Create and display the board and pieces
+    // For loop to render pieces
+    std::string pieceName = "blackrook";
+    sf::Sprite chessBoard = Renderer::renderBoard(boardWindowHeight, boardWindowWidth);
+    sf::Sprite blackPawn = Renderer::renderPiece(pieceName);
 
-    sf::Vector2u boardSize = boardTexture.getSize();
-    sf::Sprite boardSprite;
-    boardSprite.setTexture(boardTexture);
-    boardSprite.setScale(sf::Vector2f(boardWindowWidth / boardSize.x, boardWindowHeight / boardSize.y));
-
-    sf::Texture blackpawnTexture;
-    if (!blackpawnTexture.loadFromFile(("../sprites/blackpawn.png"))) {
-        return 0;
-    }
-
-    sf::Vector2u blackpawnSize = blackpawnTexture.getSize();
-    sf::Sprite blackpawnSprite;
-    blackpawnSprite.setTexture(blackpawnTexture);
-    blackpawnSprite.setScale(sf::Vector2f(0.5f, 0.5f));
+    // bool resign = false;
+    // bool isGameOver = false;
+    // bool isPlayersMove = true;
 
     while (window.isOpen())
     {
         sf::Event event;
+
         while (window.pollEvent(event))
         {
-            if (event.type == sf::Event::Closed)
-                window.close();
+            if (event.type == sf::Event::Closed) window.close();
+
+            // if (resign == true) window.close();
+
+            // // A move can't be valid by default, we must check it!
+            // bool isMoveValid = false;
+
+            // while (!isMoveValid) {
+            //     std::string move = getMove(bool isPlayersMove);
+            //     isMoveValid = MoveValidator::isValidMove(std::string& move);    // If false displays an error message
+            // }
+
+            // if (isGameOver()) {
+            //     if (!GameTerminator::isATie()) {
+            //         GameTerminator::DisplayWinner(bool isPlayersMove);
+            //         resign = true;
+            //     }
+            // }
+
+            // // Switch player
+            // isPlayersMove = (isPlayersMove + 1) / 2
+
         }
 
         window.clear();
         window.draw(background);
-        window.draw(boardSprite);
-        window.draw(blackpawnSprite);
+        window.draw(chessBoard);
+        window.draw(blackPawn);
         window.display();
     }
 
